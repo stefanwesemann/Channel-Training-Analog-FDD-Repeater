@@ -7,7 +7,6 @@ Stefan Wesemann and Thomas L. Marzetta, “[Channel Training for Analog FDD Repe
 
 The package contains a simulation environment, based on R (https://www.r-project.org/), that reproduces all the numerical results and figures in the paper. 
 
-
 ##Abstract of Article
 
 A network of analog repeaters, each fed by a wireless fronthaul link and powered by e.g., solar energy, is a promising candidate for a flexible small cell deployment. A key challenge is the acquisition of accurate channel state information by the fronthaul hub (FH), which is needed for the spatial multiplexing of multiple fronthaul links over the same time/frequency resource. For frequency division duplex channels, a simple pilot loop-back procedure has been proposed that allows the estimation of the UL & DL channels at the FH without relying on any digital signal processing at the repeater side. For this scheme, we derive the maximum likelihood (ML) estimators for the UL & DL channel subspaces, formulate the corresponding Crame ́r-Rao bounds and show the asymptotic efficiency of both (SVD-based) estimators by means of Monte Carlo simulations. In addition, we illustrate how to compute the underlying (rank-1) SVD with quadratic time complexity by employing the power iteration method. To enable power control for the fronthaul links, knowledge of the channel gains is needed. Assuming that the UL & DL channels have on average the same gain, we formulate the ML estimator for the UL channel gain, and illustrate its robustness against strong noise by means of simulations.
@@ -20,6 +19,11 @@ The article contains 5 simulation figures, numbered 2 (left & right), 3 (left & 
 All scripts require the R packages "Threeway", "latex2exp", "pracma", "plyr", and "ggplot2". The code has been tested with R version 3.2.1.
 
 See each file for further documentation.
+
+
+##Usage
+
+Download the repository to a local directory, and set R's working directory to the same folder. It is important that all files are located in the same folder, otherwise the scripts will not find the underlying function definitions.
 
 
 ##Acknowledgements
