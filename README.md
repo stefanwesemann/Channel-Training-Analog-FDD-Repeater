@@ -3,7 +3,7 @@ Channel Training for Analog FDD Repeaters: Optimal Estimators and Cramér-Rao Bo
 
 This is a code package is related to the following scientific paper:
 
-Stefan Wesemann and Thomas L. Marzetta, “[Channel Training for Analog FDD Repeaters: Optimal Estimators and Cramér-Rao Bounds](http://arxiv.org/pdf/),” submitted to IEEE Transactions on Signal Processing, October 2016.
+Stefan Wesemann and Thomas L. Marzetta, “[Channel Training for Analog FDD Repeaters: Optimal Estimators and Cramér-Rao Bounds](https://arxiv.org/pdf/1610.03260v1.pdf),” submitted to IEEE Transactions on Signal Processing, October 2016.
 
 The package contains a simulation environment, based on R (https://www.r-project.org/), that reproduces all the numerical results and figures in the paper. 
 
