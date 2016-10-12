@@ -3,7 +3,7 @@
 #
 # Stefan Wesemann, Thomas L. Marzetta, "Channel Training for Analog FDD 
 # Repeaters: Optimal Estimators and Cramér-Rao Bounds"
-# Download article: tbd
+# Download article: https://arxiv.org/pdf/1610.03260v1.pdf
 #
 # This is version 1.0 (Last edited: 2016-10-10)
 #
