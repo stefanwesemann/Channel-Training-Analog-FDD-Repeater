@@ -64,7 +64,7 @@ colnames(results)[colnames(results) == 'V1'] <- "beta"
 
 
 # Plot Simulation Results ------------------------------------------------------
-plotFileFlag <- 0   # flag for file output (as *.pdf)
+plotFileFlag <- 1   # flag for file output (as *.pdf)
 
 if (plotFileFlag){
     scaleFactor <- 0.9
