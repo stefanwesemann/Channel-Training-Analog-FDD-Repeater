@@ -1,10 +1,10 @@
-# This script is used to generate the left side of Figure 3, in the article:
+# This script is used to generate the left side of Figure 5, in the article:
 #
 # Stefan Wesemann, Thomas L. Marzetta, "Channel Training for Analog FDD 
 # Repeaters: Optimal Estimators and Cramér-Rao Bounds"
-# Download article: https://arxiv.org/pdf/1610.03260v1.pdf
+# Download article: https://arxiv.org/pdf/1610.03260v2.pdf
 #
-# This is version 1.0 (Last edited: 2016-10-10)
+# This is version 1.0 (Last edited: 2017-04-04)
 #
 # License: This code is licensed under the GPLv2 license. If you in any way
 # use this code for research that results in publications, please cite our
