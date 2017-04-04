@@ -15,12 +15,21 @@
 # Please make sure that the corresponding packages are installed!
 rm(list=ls())
 
-library(ThreeWay)
-library(latex2exp)
-library(pracma)
-library(plyr)
-library(ggplot2)
-library(reshape2)
+# Install function for packages    
+packages<-function(x){
+  x<-as.character(match.call()[[2]])
+  if (!require(x,character.only=TRUE)){
+    install.packages(pkgs=x,repos="http://cran.r-project.org")
+    require(x,character.only=TRUE)
+  }
+}
+
+packages(ThreeWay)
+packages(latex2exp)
+packages(pracma)
+packages(plyr)
+packages(ggplot2)
+packages(reshape2)
 
 
 # Load/define Simulator Functions ----------------------------------------------
